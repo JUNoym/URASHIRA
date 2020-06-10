@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "test.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="top_first">ようこそ愛知県立大学授業情報サイトURASHIRAへ</h1>
+        <h1 class="top-second">新規登録、またはログインをしサイトをお楽しみください</h1>
+        <div class="button">
+        <%= link_to “<button class="signin">新規登録</button>”, /top/login, method: :post %>
+        <%= link_to “<button class="login">ログイン</button>”, /top/login, method: :post %>
+        </div>
+    </div>
+</body>
+</html>
+
+
